@@ -1,0 +1,78 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.background {
+  position: relative;
+  background-image: url("images/imgone.png");
+  background-repeat: no-repeat;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.righteye {
+  position: absolute;
+  background-image: url("images/imgtwo.png");
+  top: 10%;
+  width: 1000px;
+  height: 10%;
+
+}
+
+.lefteye {
+  position: absolute;
+  background-image: url("images/imgthree.png");
+  margin-top: 200px;
+  width: 1000px;
+  height: 20%;
+  margin-left: 400px;
+}
+
+.nose {
+  position: absolute;
+  background-image: url("images/imgone.png");
+  margin-top: 300px;
+  width: 1200px;
+  height: 5%;
+  margin-left: 200px;
+}
+
+.mouth {
+  position: absolute;
+  background-image: url("images/imgtwo.png");
+  margin-top: 500px;
+  width: 1200px;
+  height: 20%;
+  margin-left: 200px;
+}
+
+.righteyebrow{
+  position: absolute;
+  background-image: url("images/imgthree.png");
+  margin-top: 600px;
+  width: 1200px;
+  height: 20%;
+  margin-left: 50px;
+}
+
+.lefteyebrow {
+  position: absolute;
+  background-image: url("images/imgone.png");
+  margin-top: 400px;
+  width: 1200px;
+  height: 20%;
+  margin-left: 50px;
+}
+
+.hair {
+  position: absolute;
+  background-image: url("images/imgtwo.png");
+  margin-top: 20px;
+  width: 600px;
+  height: 20%;
+  margin-left: 825px;
+}
